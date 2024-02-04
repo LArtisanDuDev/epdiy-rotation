@@ -55,7 +55,7 @@ void i2s_bus_init(i2s_bus_config *cfg)
 {
     ESP_LOGI(TAG,
         "Initialize Intel 8080 bus\n6:%d 7:%d 4:%d 5:%d 2:%d 3:%d 0:%d 1:%d\n"
-        "start_pulse:%d clock:%d\nepd_row_width:%" PRIu32,
+        "start_pulse:%d clock:%d\nepd_row_width:%d",
         cfg->data_6,cfg->data_7,cfg->data_4,cfg->data_5,cfg->data_2,cfg->data_3,cfg->data_0,
         cfg->data_1, cfg->start_pulse, cfg->clock, cfg->epd_row_width);
 
